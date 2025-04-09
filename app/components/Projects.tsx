@@ -186,6 +186,14 @@ export default function Projects() {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+        <motion.h2
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+          className="text-xl sm:text-2xl md:text-3xl mt-6 text-center mb-6 md:mb-8 font-semibold"
+        >
+          To Be Continued...
+        </motion.h2>
       </div>
     </section>
   )

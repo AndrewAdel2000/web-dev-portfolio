@@ -165,7 +165,7 @@ export default function Contact() {
             <h3 className="text-3xl font-semibold mb-8 text-orange-500">Connect With Me</h3>
             <div className="space-y-7">
               <motion.a
-                href="https://linkedin.com/in/your-linkedin"
+                href="https://www.linkedin.com/in/andrew-adel-641399197/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-5 text-gray-200 hover:text-orange-500 transition-colors duration-300"
@@ -178,7 +178,7 @@ export default function Contact() {
               </motion.a>
 
               <motion.a
-                href="https://github.com/your-github"
+                href="https://github.com/AndrewAdel2000"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-5 text-gray-200 hover:text-orange-500 transition-colors duration-300"
@@ -191,7 +191,7 @@ export default function Contact() {
               </motion.a>
 
               <motion.a
-                href="https://wa.me/yourphonenumber"
+                href="https://wa.me/+201023738484"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-5 text-gray-200 hover:text-orange-500 transition-colors duration-300"
@@ -204,7 +204,7 @@ export default function Contact() {
               </motion.a>
 
               <motion.a
-                href="tel:+yourphonenumber"
+                href="tel:+201023738484"
                 className="flex items-center gap-5 text-gray-200 hover:text-orange-500 transition-colors duration-300"
                 whileHover={{ x: 5 }}
               >
