@@ -80,6 +80,20 @@ const projects = [
     ],
     websiteUrl: "https://bioxera-pharma.com",
   },
+  {
+    id: 6,
+    name: "Scope Plus",
+    description: "Creative digital showcase for a full-service branding agency.",
+    image: "/assets/scope-1.png",
+    slug: "scope-plus",
+    clientLogos: [
+      {
+        name: "Scope Plus",
+        logo: "/assets/scope-logo.png",
+      },
+    ],
+    websiteUrl: "https://scopeplusagency.com",
+  },
 ]
 
 interface Project {

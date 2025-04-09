@@ -147,6 +147,29 @@ const projects = [
           ],
           websiteUrl: "https://bioxera-pharma.com",
         },
+        {
+          id: 6,
+          name: "Scope Plus - Advertising Agency",
+          description: "Creative digital showcase for a full-service branding agency.",
+          images: ["/assets/scope-1.png", "/assets/scope-2.png", "/assets/scope-3.png", "/assets/scope-4.png"],
+          slug: "scope-plus",
+          details:"Scope Plus is a dynamic advertising and publicity agency offering comprehensive services including creative design, printing, raised-letter installations, and outdoor branding. The website was built to reflect their bold visual identity and showcase their extensive portfolio in a vibrant and professional way. The design was carefully structured to balance visual impact and content clarity, helping visitors instantly understand the agency’s services and achievements.",
+            myRole: [
+              "Led the design and development of the entire website using WordPress and Elementor.",
+              "Aligned the visual design with the brand’s identity, incorporating vibrant colors and bold layouts.",
+              "Collected and curated visual assets that reflect the company’s work and appeal to their audience.",
+              "Structured the content to highlight services, achievements, and recent projects clearly.",
+              "Ensured full responsiveness and performance optimization for all screen sizes.",
+            ],
+            technologies: ["Platform: WordPress", "Page Builder: Elementor", "Design Process: Visual research, asset collection, client collaboration", "Styling: Custom layout and color palette inspired by brand guidelines", "Focus: Visual storytelling, responsive layout, clear content structure"],
+            clientLogos: [
+              {
+                name: "Scope Plus",
+                logo: "/assets/scope-logo.png",
+              },
+            ],
+            websiteUrl: "https://scopeplusagency.com",
+          },
 ]
 
 export default function ProjectPage() {
