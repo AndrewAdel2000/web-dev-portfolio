@@ -1,27 +1,56 @@
 import { NextResponse } from "next/server"
+import { Resend } from "resend"
+
+// Initialize Resend with API key
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(request: Request) {
   try {
     const { name, email, message, to } = await request.json()
 
-    // Log the email data that would be sent
-    console.log("Mock email service:")
-    console.log("To:", to)
-    console.log("From:", email)
-    console.log("Name:", name)
-    console.log("Message:", message)
+    // Validate required fields
+    if (!name || !email || !message || !to) {
+      return NextResponse.json(
+        { success: false, message: "Missing required fields" },
+        { status: 400 }
+      )
+    }
 
-    // In a real implementation, this would use nodemailer or another email service
-    // Simulate a delay to mimic sending an email
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    // Send email using Resend
+    const { data, error } = await resend.emails.send({
+      from: 'Contact Form <onboarding@resend.dev>',
+      to: [to],
+      subject: `New Message from ${name}`,
+      replyTo: email,
+      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      html: `
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <h3>Message:</h3>
+        <p>${message}</p>
+      `,
+    })
 
+    if (error) {
+      console.error("Resend API error:", error)
+      return NextResponse.json(
+        { success: false, message: error.message },
+        { status: 500 }
+      )
+    }
+
+    console.log("Email sent successfully:", data)
     return NextResponse.json({
       success: true,
-      message: "Email would be sent in production. Check console for details.",
+      message: "Email sent successfully",
     })
   } catch (error) {
-    console.error("Error in mock email service:", error)
-    return NextResponse.json({ success: false, message: "Failed to process email request" }, { status: 500 })
+    console.error("Error sending email:", error)
+    return NextResponse.json(
+      { success: false, message: "Failed to send email" },
+      { status: 500 }
+    )
   }
 }
 

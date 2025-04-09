@@ -45,7 +45,7 @@ export default function Contact() {
         console.log("Form submitted successfully:", formData)
         setSubmitStatus({
           success: true,
-          message: "Your message has been received! (Note: In the preview, emails are not actually sent)",
+          message: "Your message has been sent! I'll get back to you soon.",
         })
         // Reset form after submission
         setFormData({ name: "", email: "", message: "" })
@@ -129,7 +129,7 @@ export default function Contact() {
                 rows={4}
                 className="bg-gray-800 border border-gray-700 text-white text-lg rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
                 placeholder="Your message"
-              ></motion.textarea>
+              />
             </div>
 
             {submitStatus.message && (
