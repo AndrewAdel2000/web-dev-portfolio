@@ -12,14 +12,14 @@ const projects = [
     name: "Sigma Rebate – Sanofi",
     description: "A payout system for managing pharmacy rebates.",
     images: [
-      "/assets/Sigma-1.png",
-      "/assets/Sigma-2.png",
-      "/assets/Sigma-3.png",
-      "/assets/Sigma-4.png",
-      "/assets/Sigma-5.png",
-      "/assets/Sigma-6.png",
-      "/assets/Sigma-7.png",
-      "/assets/Sigma-8.png",
+      "/assets/Sigma-1.webp",
+      "/assets/Sigma-2.webp",
+      "/assets/Sigma-3.webp",
+      "/assets/Sigma-4.webp",
+      "/assets/Sigma-5.webp",
+      "/assets/Sigma-6.webp",
+      "/assets/Sigma-7.webp",
+      "/assets/Sigma-8.webp",
     ],
     slug: "payout-system",
     details:
@@ -49,7 +49,7 @@ const projects = [
       },
       {
         name: "Client 2",
-        logo: "/assets/sanofi-logo.png",
+        logo: "/assets/sanofi-logo.webp",
       },
     ],
   },
@@ -58,7 +58,7 @@ const projects = [
     id: 2,
     name: "MadoEG E-commerce",
     description: "MadoEG is a fully functional e-commerce website developed using WordPress and WooCommerce, designed to support a high-volume online retail operation.",
-    images: ["/assets/mado-1.png", "/assets/mado-2.png", "/assets/mado-3.png"],
+    images: ["/assets/mado-1.webp", "/assets/mado-2.webp", "/assets/mado-3.webp"],
     slug: "mado-ecommerce",
     details:
       "MadoEG is a fully functional e-commerce website developed using WordPress and WooCommerce, designed to support a high-volume online retail operation. The project required a complete end-to-end execution, and I led every stage of development — from digital marketing strategy and UI/UX design to full technical implementation.",
@@ -73,7 +73,7 @@ const projects = [
     clientLogos: [
       {
         name: "MadoEG",
-        logo: "/assets/mado-logo.png",
+        logo: "/assets/mado-logo.webp",
       },
     ],
     websiteUrl: "https://mado-eg.com",
@@ -83,7 +83,7 @@ const projects = [
     id: 3,
     name: "Adly Chess Academy",
     description: "Official website for one of the top chess academies in Egypt and Africa",
-    images: ["/assets/adly-1.png", "/assets/adly-2.png", "/assets/adly-3.png", "/assets/adly-4.png"],
+    images: ["/assets/adly-1.webp", "/assets/adly-2.webp", "/assets/adly-3.webp", "/assets/adly-4.webp"],
     slug: "adly-chess-academy",
     details:
       "The Adly Chess Academy website was designed to represent one of the most prestigious chess institutions in Egypt and Africa. The goal was to deliver a bold, elegant, and professional digital presence that reflects the excellence and discipline of competitive chess players. I developed the site using WordPress and Elementor, starting from the lightweight Hello Elementor theme and transforming it into a fully customized design that felt both authentic and premium. Every design choice—from typography to layout—was made to align with the academy’s elite brand and appeal to a competitive audience.",
@@ -96,7 +96,7 @@ const projects = [
       clientLogos: [
         {
           name: "Adly Chess Academy",
-          logo: "/assets/adly-logo.png",
+          logo: "/assets/adly-logo.webp",
         },
       ],
       websiteUrl: "https://adlychess.com",
@@ -105,7 +105,7 @@ const projects = [
       id: 4,
       name: "Evolve",
       description: "Innovative digital presence for a Portugal-based supplement brand",
-      images: ["/assets/evolve-1.png", "/assets/evolve-2.png", "/assets/evolve-3.png"],
+      images: ["/assets/evolve-1.webp", "/assets/evolve-2.webp", "/assets/evolve-3.webp"],
       slug: "evolve",
       details:"Evolve is a pharmaceutical company founded in Portugal, providing innovative dietary supplements and cosmeceuticals for both children and adults. The goal was to build a sleek, modern product catalog website that reflects the brand’s scientific credibility and consumer trust.",
         myRole: [
@@ -119,7 +119,7 @@ const projects = [
         clientLogos: [
           {
             name: "Evolve",
-            logo: "/assets/evolve-logo.png",
+            logo: "/assets/evolve-logo.webp",
           },
         ],
         websiteUrl: "https://evolve.pt",
@@ -128,7 +128,7 @@ const projects = [
         id: 5,
         name: "Bioxera Pharma",
         description: "Bridging nature and science through a custom product catalog.",
-        images: ["/assets/bioxera-1.png", "/assets/bioxera-2.png"],
+        images: ["/assets/bioxera-1.webp", "/assets/bioxera-2.webp"],
         slug: "bioxera-pharma",
         details:"Bioxera specializes in herbal wellness, nature-inspired cosmetics, and trusted pharmaceuticals. The brand needed a website that communicates sustainability, trust, and scientific elegance while acting as a professional catalog of its product range.",
           myRole: [
@@ -142,7 +142,7 @@ const projects = [
           clientLogos: [
             {
               name: "Bioxera Pharma",
-              logo: "/assets/bioxera-logo.png",
+              logo: "/assets/bioxera-logo.webp",
             },
           ],
           websiteUrl: "https://bioxera-pharma.com",
@@ -151,7 +151,7 @@ const projects = [
           id: 6,
           name: "Scope Plus - Advertising Agency",
           description: "Creative digital showcase for a full-service branding agency.",
-          images: ["/assets/scope-1.png", "/assets/scope-2.png", "/assets/scope-3.png", "/assets/scope-4.png"],
+          images: ["/assets/scope-1.webp", "/assets/scope-2.webp", "/assets/scope-3.webp", "/assets/scope-4.webp"],
           slug: "scope-plus",
           details:"Scope Plus is a dynamic advertising and publicity agency offering comprehensive services including creative design, printing, raised-letter installations, and outdoor branding. The website was built to reflect their bold visual identity and showcase their extensive portfolio in a vibrant and professional way. The design was carefully structured to balance visual impact and content clarity, helping visitors instantly understand the agency’s services and achievements.",
             myRole: [
@@ -165,7 +165,7 @@ const projects = [
             clientLogos: [
               {
                 name: "Scope Plus",
-                logo: "/assets/scope-logo.png",
+                logo: "/assets/scope-logo.webp",
               },
             ],
             websiteUrl: "https://scopeplusagency.com",
