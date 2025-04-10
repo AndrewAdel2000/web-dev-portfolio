@@ -95,7 +95,7 @@ export default function Contact() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="bg-gray-800 border border-gray-700 text-white text-lg rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
+                className="bg-gray-800 border border-gray-700 text-white text-lg rounded-[1vw] focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
                 placeholder="Your name"
               />
             </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="bg-gray-800 border border-gray-700 text-white text-lg rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
+                className="bg-gray-800 border border-gray-700 text-white text-lg rounded-[1vw] focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
                 placeholder="your@email.com"
               />
             </div>
@@ -127,7 +127,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 rows={4}
-                className="bg-gray-800 border border-gray-700 text-white text-lg rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
+                className="bg-gray-800 border rounded-[1vw] border-gray-700 text-white text-lg rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
                 placeholder="Your message"
               />
             </div>
