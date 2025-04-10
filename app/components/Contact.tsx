@@ -6,6 +6,7 @@ import { FaLinkedin, FaGithub, FaWhatsapp, FaPhone } from "react-icons/fa"
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
+    phone: "",
     email: "",
     message: "",
   })
@@ -48,7 +49,7 @@ export default function Contact() {
           message: "Your message has been sent! I'll get back to you soon.",
         })
         // Reset form after submission
-        setFormData({ name: "", email: "", message: "" })
+        setFormData({ name: "", email: "", phone: "", message: "" })
       } else {
         throw new Error(data.message || "Something went wrong")
       }
@@ -98,6 +99,30 @@ export default function Contact() {
                 className="bg-gray-800 border border-gray-700 text-white text-lg rounded-[1vw] focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
                 placeholder="Your name"
               />
+            </div>
+            <div className="mb-6">
+              <label htmlFor="phone" className="block mb-2 text-lg font-medium text-gray-300">
+              Phone Number
+              </label>
+              <motion.input
+              whileFocus={{ scale: 1.02 }}
+              type="tel"
+              id="phone"
+              name="phone"
+              value={formData.phone}
+              onChange={(e) => {
+                const value = e.target.value
+                if (/^[\d+]*$/.test(value)) {
+                handleChange(e)
+                }
+              }}
+              required
+              className="bg-gray-800 border border-gray-700 text-white text-lg rounded-[1vw] focus:ring-orange-500 focus:border-orange-500 block w-full p-3"
+              placeholder="Your phone number"
+              />
+              {!/^[\d+]*$/.test(formData.phone) && (
+              <p className="text-red-500 text-sm mt-2">Please enter numbers and the '+' character only.</p>
+              )}
             </div>
             <div className="mb-6">
               <label htmlFor="email" className="block mb-2 text-lg font-medium text-gray-300">
