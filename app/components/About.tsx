@@ -22,7 +22,7 @@ export default function About() {
             className="w-56 h-[300px] md:w-72 md:h-[500px] relative rounded-full shadow-lg shadow-orange-500/50 overflow-hidden"
           >
             <Image
-              src="/assets/Andrew.JPEG?height=256&width=256"
+              src="/assets/Andrew.webp?height=256&width=256"
               alt="Andrew's profile picture"
               layout="fill"
               objectFit="cover"

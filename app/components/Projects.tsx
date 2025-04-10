@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     name: "Sigma Rebate – Sanofi",
     description: "A payout system for managing pharmacy rebates.",
-    image: "/assets/Sigma-1.png",
+    image: "/assets/Sigma-1.webp",
     slug: "payout-system",
     clientLogos: [
       {
@@ -18,7 +18,7 @@ const projects = [
       },
       {
         name: "Sanofi",
-        logo: "/assets/sanofi-logo.png",
+        logo: "/assets/sanofi-logo.webp",
       },
     ],
   },
@@ -27,12 +27,12 @@ const projects = [
     id: 2,
     name: "MadoEG E-commerce",
     description: "MadoEG is a fully functional e-commerce website developed using WordPress and WooCommerce, designed to support a high-volume online retail operation.",
-    image: "/assets/mado-1.png",
+    image: "/assets/mado-1.webp",
     slug: "mado-ecommerce",
     clientLogos: [
       {
         name: "MadoEG",
-        logo: "/assets/mado-logo.png",
+        logo: "/assets/mado-logo.webp",
       },
     ],
     websiteUrl: "https://mado-eg.com",
@@ -42,12 +42,12 @@ const projects = [
     id: 3,
     name: "Adly Chess Academy",
     description: "Official website for one of the top chess academies in Egypt and Africa.",
-    image: "/assets/adly-1.png",
+    image: "/assets/adly-1.webp",
     slug: "adly-chess-academy",
     clientLogos: [
       {
         name: "Adly Chess Academy",
-        logo: "/assets/adly-logo.png",
+        logo: "/assets/adly-logo.webp",
       },
     ],
     websiteUrl: "https://adlychess.com",
@@ -56,12 +56,12 @@ const projects = [
     id: 4,
     name: "Evolve",
     description: "Innovative digital presence for a Portugal-based supplement brand.",
-    image: "/assets/evolve-1.png",
+    image: "/assets/evolve-1.webp",
     slug: "evolve",
     clientLogos: [
       {
         name: "Evolve",
-        logo: "/assets/evolve-logo.png",
+        logo: "/assets/evolve-logo.webp",
       },
     ],
     websiteUrl: "https://evolve.pt",
@@ -70,12 +70,12 @@ const projects = [
     id: 5,
     name: "Bioxera Pharma",
     description: "Bridging nature and science through a custom product catalog.",
-    image: "/assets/bioxera-1.png",
+    image: "/assets/bioxera-1.webp",
     slug: "bioxera-pharma",
     clientLogos: [
       {
         name: "Bioxera Pharma",
-        logo: "/assets/bioxera-logo.png",
+        logo: "/assets/bioxera-logo.webp",
       },
     ],
     websiteUrl: "https://bioxera-pharma.com",
@@ -84,12 +84,12 @@ const projects = [
     id: 6,
     name: "Scope Plus",
     description: "Creative digital showcase for a full-service branding agency.",
-    image: "/assets/scope-1.png",
+    image: "/assets/scope-1.webp",
     slug: "scope-plus",
     clientLogos: [
       {
         name: "Scope Plus",
-        logo: "/assets/scope-logo.png",
+        logo: "/assets/scope-logo.webp",
       },
     ],
     websiteUrl: "https://scopeplusagency.com",
