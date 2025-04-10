@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import React from 'react'
 import Header from './components/Header'
 import Background from './components/Background'
 import CursorFollower from './components/CursorFollower'

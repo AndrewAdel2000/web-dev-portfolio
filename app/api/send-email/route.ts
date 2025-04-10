@@ -6,7 +6,7 @@ const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY)
 
 export async function POST(request: Request) {
   try {
-    const { name, email, message, to } = await request.json()
+    const { name, phone, email, message, to } = await request.json()
 
     // Validate required fields
     if (!name || !email || !message || !to) {
@@ -22,10 +22,11 @@ export async function POST(request: Request) {
       to: [to],
       subject: `New Message from ${name}`,
       replyTo: email,
-      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nMessage:\n${message}`,
       html: `
         <h2>New Contact Form Submission</h2>
         <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Email:</strong> ${email}</p>
         <h3>Message:</h3>
         <p>${message}</p>
