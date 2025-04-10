@@ -19,7 +19,7 @@ export default function About() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="w-56 h-[300px] md:w-72 md:h-[500px] relative rounded-full shadow-lg shadow-orange-500/50 overflow-hidden"
+            className="w-56 h-[300px] md:w-72 md:h-[500px] relative rounded-[7vw] shadow-lg shadow-orange-500/50 overflow-hidden"
           >
             <Image
               src="/assets/Andrew.webp?height=256&width=256"
