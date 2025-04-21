@@ -44,11 +44,11 @@ const projects = [
     ],
     clientLogos: [
       {
-        name: "Client 1",
+        name: "Sigma Rebate",
         logo: "/assets/sigma-logo.svg",
       },
       {
-        name: "Client 2",
+        name: "Sanofi",
         logo: "/assets/sanofi-logo.webp",
       },
     ],
