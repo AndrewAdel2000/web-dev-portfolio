@@ -33,7 +33,7 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-2xl sm:text-3xl md:text-4xl text-orange-500 mb-6 md:mb-8 font-semibold"
         >
-          WordPress & Vue.js Developer
+          Web Developer & Software Engineer
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}

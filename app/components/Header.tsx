@@ -99,7 +99,7 @@ export default function Header() {
         <div className="flex justify-between items-center md:hidden">
           <div className="flex flex-col">
             <span className="text-lg font-bold text-white">Andrew Adel</span>
-            <span className="text-sm text-orange-500">Software Developer</span>
+            <span className="text-sm text-orange-500">Web Developer</span>
           </div>
 
           <button

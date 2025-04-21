@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Andrew - Web Developer Portfolio',
-  description: 'WordPress and Vue.js developer with 4 years of experience',
+  description: 'Web developer with 4 years of experience',
 }
 
 export default function RootLayout({
