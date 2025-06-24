@@ -60,7 +60,7 @@ export default function CursorFollower() {
         scale: { duration: 0.2, ease: "easeOut" }
       }}
     >
-      <div className="w-2 h-2 bg-orange-700 rounded-full" />
+      <div className="w-2 h-2 bg-orange-500 rounded-full" />
     </motion.div>
   )
 }
