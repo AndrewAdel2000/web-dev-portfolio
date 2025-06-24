@@ -170,6 +170,42 @@ const projects = [
             ],
             websiteUrl: "https://scopeplusagency.com",
           },
+
+          {
+    id: 7,
+    name: "AI-Powered eCommerce Fulfillment Dashboard",
+    description: "Smart tracking system for delivery performance and logistics metrics.",
+    images: [
+      "/assets/ecommerce-1.webp",
+      "/assets/ecommerce-2.webp",
+      "/assets/ecommerce-3.webp",
+      "/assets/ecommerce-4.webp",
+      "/assets/ecommerce-5.webp",
+      "/assets/ecommerce-6.webp",
+      "/assets/ecommerce-7.webp",
+    ],
+    slug: "ecommerce-fulfillment",
+    details:
+      "This platform helps eCommerce businesses track and enhance their delivery performance by visualizing key metrics like RTOs, shipment cycles, and fulfillment times. Integrated with multiple store platforms, it centralizes operations into a single AI-driven dashboard.",
+  myRole: [
+    "Worked as a Frontend Engineer building the UI using Vue.js.",
+    "Integrated Laravel-based backend APIs to fetch and render logistics data.",
+    "Visualized delivery performance data using interactive graphs and charts.",
+    "Focused on responsiveness and dashboard clarity for interpreting large datasets.",
+    "Collaborated with backend and design teams to streamline data flow and frontend logic."
+  ],
+  technologies: [
+    "Vue",
+    "Vue Router",
+    "Axios",
+    "Chart.js",
+    "Laravel",
+    "Tailwind CSS",
+    "RESTful APIs",
+    "Typescript",
+    "CSS"
+  ],
+  },
 ]
 
 export default function ProjectPage() {

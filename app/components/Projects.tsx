@@ -94,6 +94,15 @@ const projects = [
     ],
     websiteUrl: "https://scopeplusagency.com",
   },
+
+  {
+    id: 7,
+    name: "AI-Powered eCommerce Fulfillment Dashboard",
+    description: "Smart tracking system for delivery performance and logistics metrics.",
+    image: "/assets/ecommerce-1.webp",
+    slug: "ecommerce-fulfillment",
+    
+  },
 ]
 
 interface Project {
