@@ -103,6 +103,14 @@ const projects = [
     slug: "ecommerce-fulfillment",
     
   },
+  {
+    id: 8,
+    name: "VibeCircle – Remote Team Engagement Platform",
+    description: "A fun, interactive platform built to strengthen remote team culture through games and team bonding activities.",
+    image: "/assets/vibecircle-5.webp",
+    slug: "vibecircle",
+    
+  },
 ]
 
 interface Project {

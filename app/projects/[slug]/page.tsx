@@ -209,6 +209,42 @@ const projects = [
     "CSS"
   ],
   },
+
+ {
+  id: 8,
+  name: "VibeCircle – Remote Team Engagement Platform",
+  description: "A fun, interactive platform built to strengthen remote team culture through games and team bonding activities.",
+  images: [
+    "/assets/vibecircle-1.webp",
+    "/assets/vibecircle-2.webp",
+    "/assets/vibecircle-3.webp",
+    "/assets/vibecircle-4.webp",
+    "/assets/vibecircle-5.webp"
+  ],
+  slug: "vibecircle",
+  details:
+    "VibeCircle is a platform built to bring distributed teams together through social games, real-time trivia, hidden kudos, and collaborative features. It helps remote companies run engaging 'social hour' sessions to boost morale, bonding, and team culture. The design is clean, modern, and focused on delivering a smooth user experience for all team sizes.",
+  myRole: [
+    "Built the entire platform as a Fullstack Developer using Next.js and Supabase.",
+    "Designed a user-friendly UI with smooth interactions and a consistent visual experience.",
+    "Implemented real-time multiplayer features using Supabase's subscriptions and authentication.",
+    "Developed features like Trivia, Hidden Kudos, Team Management, and Activity Feeds.",
+    "Ensured accessibility and responsiveness across devices for seamless remote team usage."
+  ],
+  technologies: [
+    "Next.js",
+    "React",
+    "Supabase",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "Typescript",
+    "Realtime APIs",
+    "Websockets",
+    "Authentication",
+    "Framer Motion"
+  ],
+  
+}
 ]
 
 export default function ProjectPage() {
