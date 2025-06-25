@@ -183,6 +183,9 @@ const projects = [
       "/assets/ecommerce-5.webp",
       "/assets/ecommerce-6.webp",
       "/assets/ecommerce-7.webp",
+      "/assets/ecommerce-8.webp",
+      "/assets/ecommerce-9.webp",
+      "/assets/ecommerce-10.webp",
     ],
     slug: "ecommerce-fulfillment",
     details:
